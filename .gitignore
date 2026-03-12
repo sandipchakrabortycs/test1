@@ -1,0 +1,58 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# Trained models
+models/*.joblib
+
+# Generated data artifacts
+data/interim/*
+data/shifted/*
+data/metadata/*
+!data/interim/.gitkeep
+!data/shifted/.gitkeep
+!data/metadata/.gitkeep
+
+# Generated outputs
+outputs/predictions/*
+outputs/explanations/*
+outputs/metrics/*
+outputs/figures/*
+!outputs/predictions/.gitkeep
+!outputs/explanations/.gitkeep
+!outputs/metrics/.gitkeep
+!outputs/figures/.gitkeep
+
+# Optional local experiment files
+*.tmp
+*.bak
