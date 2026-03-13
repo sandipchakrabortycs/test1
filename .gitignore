@@ -36,7 +36,7 @@ dist/
 models/*.joblib
 
 # Generated data artifacts
-data/interim/*
+
 data/shifted/*
 data/metadata/*
 !data/interim/.gitkeep
